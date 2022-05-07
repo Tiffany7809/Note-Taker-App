@@ -1,17 +1,7 @@
 [
     {
-        "title": "Note",
-        "text": "Did I do it?",
-        "review_id": "b593"
-    },
-    {
-        "title": "yay?",
-        "text": "I did it?",
-        "review_id": "e907"
-    },
-    {
-        "title": "did it work?",
-        "text": "yay?????\n",
-        "review_id": "17ca"
+        "title": "Test Note",
+        "text": "This note is a test.",
+        "review_id": "b40e"
     }
 ]
