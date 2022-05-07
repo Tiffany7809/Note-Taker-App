@@ -38,9 +38,16 @@
   <h2 id="use">Usage</h2>
 
   Simply click on the link provided, and then add your note to the right hand column. To save the note, click on the save icon that will appear in the top right corner when both the Title and Note body has been provided. To view your previous notes, select the note from the left hand column. To add another note click on the + in the top right.
-  ***
-    
+![Screenshot (34)](https://user-images.githubusercontent.com/97773921/167272948-94cdcd74-cae3-46ae-90b1-89df0e6a48aa.png)
 
+![Screenshot (35)](https://user-images.githubusercontent.com/97773921/167272960-3865f31b-b4aa-4729-bb7d-7353dbba3a34.png)
+
+![Screenshot (36)](https://user-images.githubusercontent.com/97773921/167272963-a3180b12-5ed5-4efc-b099-48583f5ee577.png)
+
+![Screenshot (37)](https://user-images.githubusercontent.com/97773921/167272967-32b61b09-b9ef-4201-9249-05f6d51af6ba.png)
+
+    
+***
 
   <h2 id="questions">Questions</h2>
 
