@@ -75,10 +75,6 @@ app.get('/api/notes/:id', (req, res) => {
 });
 
 
-//////////////////////////////////////////////////////
-//delete funtion
-
-
 ////////////////////////////////////////////////
  // If route is not found, re-route to home page
  app.get("*", function (req, res) {
