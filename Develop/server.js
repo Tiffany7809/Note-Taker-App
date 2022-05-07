@@ -45,7 +45,7 @@ app.post("/api/notes", function (req, res) {
       const newNote = {
         title,
         text,
-        review_id: uuid(),
+        id: uuid(),
       };
    note.push(newNote);
       }
@@ -55,9 +55,24 @@ app.post("/api/notes", function (req, res) {
   });
 });
 
-//////////////////////////////////////////////////////
-//view previous notes when clicked
+///////////////////////////////////////////////////////////////////////////////
+//view previous notes when selected by using the id as a query parameter
 
+app.get('/api/notes', (req, res) => res.json(note));
+
+// GET route that returns any specific note
+app.get('/api/notes/:id', (req, res) => {
+  // Change the search id to lowercase
+  const requestedTerm = req.params.note.toLowerCase();
+  // Iterate through the note ids to check if it matches any exsisting ids
+  for (let i = 0; i < note.length; i++) {
+    if (requestedTerm === note[i].id.toLowerCase()) {
+      return res.json(note[i]);
+    }
+  }
+  // Return a message if the note doesn't exist in our DB
+  return res.json('No match found');
+});
 
 
 //////////////////////////////////////////////////////
